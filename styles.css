@@ -9,3 +9,153 @@
 
     ====================================
 */
+
+/* General */
+
+body {
+    /* background-image: linear-gradient(to right bottom, #023A47, #07AAD1);
+    background-size: cover; */
+    background-image: url(images/background-blue-magenta-gradient.jpg);
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    color: #02303B;
+}
+
+
+/* Header */
+
+header {
+    background-color: #02323D;
+    
+}
+
+h1 {
+    padding: 20px 0;
+    color: #FFF0E6;
+    text-align: center;
+    font-size: 30pt;
+}
+
+#nav-menu ul {
+    display: -webkit-flex;
+    display: flex;
+    padding-inline-start: 0;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(255, 240, 230, 0.95);
+    list-style-type: none;
+}
+
+#nav-menu li {
+    -webkit-flex: 4 1 300px;
+    flex: 4 1 300px;
+    padding: 10px 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+#nav-menu a {
+    color: #02303B;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu {
+    display: none;
+}
+
+
+/* Pages - Shared Content */
+
+#index-main {
+    display: -webkit-flex;
+    display: flex;
+    width: 67%;
+    margin: 40px auto;
+    background-image: linear-gradient(to top, rgba(43, 91, 127, 0.8), rgba(120, 37, 73, 0.8), rgba(43, 91, 127, 0.8));
+    background-color: rgba(255, 240, 230, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px #FFF0E6;
+}
+
+.tables {
+    width: 50%;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: rgba(255, 240, 230, 0.95);
+    box-shadow: 0 0 3px 3px #02323D;
+    border-radius: 15px;
+}
+
+.tables th {
+    font-size: 15pt;
+}
+
+.table-line1 {
+    display: inline;
+    font-size: 13pt;
+}
+
+.table-line1 td {
+    padding: 50px 0 0 0;
+}
+
+.institution {
+    font-weight: bold;
+}
+
+.title {
+    font-style: italic;
+}
+
+.table-timeRange td {
+    padding: 15px 0;
+}
+
+.dateRange {
+    font-size: 10.5pt;
+    color: #4F727D;
+}
+
+
+/* Intro */
+
+#index-main {
+    margin: auto;
+    padding: 40px 20px;
+}
+
+#index-photo {
+    margin: auto 20px;
+}
+
+#index-text {
+    margin: auto 20px; /* NOTE TO SELF: The auto is what finally allowed me to vertically center. Parent div must have display: flex */
+    padding: 55px;
+    background-color: rgba(255, 240, 230, 0.95);
+    box-shadow: 0 0 2px 2px #02323D;
+    border-radius: 30px;
+}
+
+#index-text p {
+    margin: 25px;
+    font-size: 14pt;
+}
+
+#photo {
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px #02323D;
+}
+
+
+
+
+
