@@ -94,6 +94,15 @@ h4 {
 }
 
 
+/* Footer */
+
+footer {
+    margin: auto 0 10px;
+    color: #FFF0E6;
+    text-align: center;
+}
+
+
 /* Pages - Shared Content */
 
 .tables_form {
