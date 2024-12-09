@@ -245,6 +245,7 @@ form {
     color: #FFF0E6;
     border: outset 2px #330F21;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
