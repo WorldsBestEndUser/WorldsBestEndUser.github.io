@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!--
+    ====================================
+
+    Assignment: Final Project - Online Profile
+    Name: Sarah Pasquale
+        
+    FileName: contact.html
+    Last updated: 12/4/2024
+
+    ====================================
+    -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Sarah Pasquale | Contact</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Sarah E. Pasquale, MA</h1>
+
+        <div id="flex-nav">
+            <nav id="nav-menu">
+                <a id="menu" href="#">Menu</a>
+                <ul>
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="experience.html">Work Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="tables_form">
+
+        <h2>Contact Me</h2>
+
+        <form id="form-content" method="get" action="thank-you.html">
+
+            <div class="form-item">
+                <label for="firstName" class="form-itemLabel">First Name*</label>
+                <br>
+                <input type="text" class="form-field" name="firstName" id="firstName" required>
+            </div>
+
+            <div class="form-item">
+                <label for="lastName" class="form-itemLabel">Last Name</label>
+                <br>
+                <input type="text" class="form-field" name="lastName" id="lastName">
+            </div>
+
+            <div class="form-item">
+                <label for="phone" class="form-itemLabel">Phone</label>
+                <br>
+                <input type="tel" class="form-field" name="phone" id="phone">
+            </div>
+
+            <div class="form-item">
+                <label for="email" class="form-itemLabel">Email Address*</label>
+                <br>
+                <input type="text" class="form-field" name="email" id="email" required>
+            </div>
+
+            <div class="form-item">
+                <label for="message" class="form-itemLabel">Message*</label>
+                <br>
+                <input type="textArea" class="form-field" name="message" id="message" required>
+            </div>
+
+            <button type="submit" id="form-button">Send</button>
+
+        </form>
+
+    </div>
+    
+</body>
+
+</html>
