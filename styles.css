@@ -211,11 +211,12 @@ form {
 .form-field {
     margin: 8px auto;
     width: 80%;
-    height: 25px;
+    height: 30px;
     border: solid 1px #02303B;
     border-radius: 5px;
     box-shadow: 0 0 1px 1px #05748F;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
     color: #02303B;
 }
 
