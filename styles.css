@@ -5,7 +5,7 @@
     Name: Sarah Pasquale
         
     FileName: styles.css
-    Last updated: 12/4/2024
+    Last updated: 12/8/2024
 
     ====================================
 */
@@ -32,7 +32,6 @@ body {
 
 header {
     background-color: #02323D;
-    
 }
 
 h1, h2, h3 {
@@ -44,8 +43,9 @@ h2, h3 {
 }
 
 h1 {
-    padding: 20px 0;
+    padding: 10px 0;
     color: #FFF0E6;
+    font-family: "Homemade Apple", cursive;
     font-size: 30pt;
 }
 
@@ -65,7 +65,7 @@ h4 {
     padding-inline-start: 0;
     width: 100%;
     margin: auto;
-    background-color: rgba(255, 240, 230, 0.95);
+    background-color: rgba(255, 240, 230, 0.9);
     list-style-type: none;
 }
 
@@ -80,13 +80,17 @@ h4 {
 
 #nav-menu a {
     color: #02303B;
-    font-size: 14pt;
+    font-size: 13pt;
     font-weight: bold;
     text-decoration: none;
 }
 
 #menu {
     display: none;
+}
+
+#icon {
+    width: 30px;
 }
 
 
@@ -143,7 +147,7 @@ h4 {
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 45px auto;
 }
 
 #index-main h2 {
@@ -174,14 +178,10 @@ h4 {
     border-radius: 30px;
 }
 
-#index-text p {
-    margin: 25px;
-    font-size: 14pt;
-}
-
 #photo {
     border-radius: 10px;
     box-shadow: 0 0 2px 2px #02323D;
+    width: 300px
 }
 
 
@@ -215,6 +215,8 @@ form {
     border: solid 1px #02303B;
     border-radius: 5px;
     box-shadow: 0 0 1px 1px #05748F;
+    font-family: 'Courier New', Courier, monospace;
+    color: #02303B;
 }
 
 #firstName, #lastName {
@@ -255,4 +257,76 @@ form {
 
 #thank-you-msg p {
     margin-top: 30px;
+}
+
+
+/* Responsive Styling */
+
+@media screen and (max-width: 1400px) {
+
+    .table-line1 td {
+        display: block;
+    }
+
+    .table-cell.city-state, .table-cell.title {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    
+    #index-content {
+        display: block;
+    }
+
+    #index-photo {
+        margin: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #nav-menu a {
+        padding: 20px 0;
+    }
+
+    #nav-menu ul {
+        display: none;
+    }
+
+    #nav-menu li {
+        padding: 10px 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    #menu:hover+ul, #nav-menu ul:hover {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        text-align: center;
+        background-color: rgba(255, 240, 230, 0.9);
+    }
+    
+    .tables_form {
+        min-width: 70%;
+    }
+
+    #form-button {
+       width: 75px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    #photo {
+       width: 85%;
+    }
+
 }
